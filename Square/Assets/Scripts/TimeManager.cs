@@ -6,6 +6,7 @@ public class TimeManager : MonoBehaviour
 {
     public float playTime;
     public float remainingTime;
+    public float usedTime=0;
 
     bool isOver = false;
 
@@ -32,6 +33,8 @@ public class TimeManager : MonoBehaviour
             // 逐帧递减剩余时间
             playTime -= Time.deltaTime;
             remainingTime = playTime;
+
+            usedTime += Time.deltaTime;
 
             // 当时间归零时只执行一次 GameOver()
             if (playTime <= 0f)

@@ -979,6 +979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playTime: 60
   remainingTime: 0
+  usedTime: 0
   isStopped: 0
 --- !u!1001 &893223975
 PrefabInstance:
@@ -1867,6 +1868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nowCount: 1
+  timeUsed: {fileID: 11400000, guid: 758fbff05a064ab4da02bdbb80c0da0b, type: 2}
 --- !u!4 &1771198781
 Transform:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class CounterManager : MonoBehaviour
 
     public int nowCount = 1;
 
-
+    public FloatDataSO timeUsed;
 
     bool isOver=false;
     public static CounterManager instance { get; private set; }
@@ -26,6 +26,10 @@ public class CounterManager : MonoBehaviour
             if (nowCount > squareCount)
             {
                 Debug.Log("游戏胜利");
+
+                //写入使用时间
+                timeUsed.floatValue =TimeManager.instance.usedTime;
+
                 isOver = true;
 
                 //TODO:进入游戏胜利界面
