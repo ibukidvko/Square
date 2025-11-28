@@ -1354,7 +1354,7 @@ GameObject:
   - component: {fileID: 1049937106}
   - component: {fileID: 1049937105}
   m_Layer: 0
-  m_Name: "\u5FAE\u4FE1\u56FE\u7247_20251126165445_14_2"
+  m_Name: bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1974,6 +1974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ClickSoundSO: {fileID: 11400000, guid: 589bafe8c6fb4fb418e01529a7e77daf, type: 2}
+  PlayClickSoundSO: {fileID: 11400000, guid: 3c9405853217bba47aae996c4fd12e75, type: 2}
 --- !u!82 &1409457984
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2405,6 +2406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestImage
       objectReference: {fileID: 0}
+    - target: {fileID: 8949640451718537736, guid: 36d5fea5651baac4da4fd3e158bfdcba, type: 3}
+      propertyPath: ClickSoundSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 589bafe8c6fb4fb418e01529a7e77daf, type: 2}
     - target: {fileID: 9114618732382478034, guid: 36d5fea5651baac4da4fd3e158bfdcba, type: 3}
       propertyPath: m_Sprite
       value: 
